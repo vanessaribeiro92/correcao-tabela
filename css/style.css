@@ -1,0 +1,98 @@
+/*GERAL*/
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+table, th, td, tr {
+  border: 1px solid white;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* THEAD */
+
+.tabela-cabecalho th {
+  border-right: 1px solid #d8d8d8;
+}
+
+.tabela-cabecalho__categoria th {
+  color: white;
+  font-size: 14px;
+  font-weight: lighter;
+  padding: 10px;
+}
+
+.tabela-cabecalho__categoria_azul{
+  background-color: #0078C1;
+}
+
+.tabela-cabecalho__categoria_verde{
+  background-color: #009e2c;
+}
+
+.tabela-cabecalho__preco th{
+  color: #4a4a4a;
+  padding: 0 40px 40px 40px;
+}
+
+
+.tabela-cabecalho__btn {
+  background-color: #ff5406;
+  padding: 15px;
+  border-radius: 4px;
+  color:white;
+  text-transform: uppercase;
+ /* transition: all 2s;
+  display: block;*/
+}
+
+/*.tabela-cabecalho__bnt:hover {
+  box-shadow: 0 4px 90px rgba(0, 0, 0, .1)
+  transform: translateY(-5px);
+}*/
+/* TBODY */
+.tabela-corpo {
+  border-top: 1px solid #d8d8d8;
+}
+
+.tabela-corpo td {
+  border-right: 1px solid #d8d8d8;
+}
+.tabela-corpo td.check_azul{
+  color: #0078C1;
+}
+
+.tabela-corpo td.check_verde{  /*se tivesses td.check_verde seria filho da td*/
+  color: #009e2c;
+}
+
+.tabela-corpo td {
+  text-align: center;
+  color: #4a4a4a;
+  padding: 10px 15px;
+}
+
+.tabela-corpo tr td:first-child {
+text-align: left;
+}
+
+.tabela-corpo tr:nth-child(odd) {
+  background-color: #f3f3f3;
+} /* odd=ímpar, even= par*/
+
+/* BOTÕES */
+
+.btn_sombra {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
